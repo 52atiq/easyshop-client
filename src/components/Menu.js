@@ -3,17 +3,19 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
 const Menu = () => {
+    
+
     return (
         <nav className='navbar navbar-dark bg-dark'>
             <ul className='nav nav-tabs'>
                 <li className='nav-item'>
-                    <Link to='' className='nav-link'>Home</Link>
+                    <Link to='/' className='nav-link'>Home</Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='' className='nav-link'>Login</Link>
+                    <Link to='/login' className='nav-link'>Login</Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='' className='nav-link'>Register</Link>
+                    <Link to='/register' className='nav-link'>Register</Link>
                 </li>
 
             </ul>

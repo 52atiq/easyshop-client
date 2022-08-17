@@ -1,10 +1,13 @@
 import React from 'react';
+import Layout from '../Layout';
 
 const Register = () => {
     return (
-        <div>
-            
-        </div>
+        <Layout title='Register' className='container col-md-8 offset-md-2' >
+            <h3>Register Here</h3>
+            <hr></hr>
+
+        </Layout>
     );
 };
 
